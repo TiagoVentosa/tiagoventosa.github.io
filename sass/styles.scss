@@ -478,27 +478,6 @@ $brand-color:#df8625;
         ol {
 
             @include respond-to(xs) {
-                &:before {
-                    background: $brand-color-g;
-                    content: "";
-                    width: 10px;
-                    height: 10px;
-                    border-radius: 100%;
-                    position: absolute;
-                    top: 130px !important;
-                    left: 36px !important;
-                }
-
-                &:after {
-                    background: #348e80;
-                    content: "";
-                    width: 10px;
-                    height: 10px;
-                    border-radius: 100%;
-                    position: absolute;
-                    top: inherit !important;
-                    left: 36px;
-                }
 
                 &.ps-timeline {
                     margin: 130px 0 !important;
@@ -621,28 +600,6 @@ $brand-color:#df8625;
                 }
             }
 
-
-            &:before {
-                background: $our_green;
-                content: "";
-                width: 10px;
-                height: 10px;
-                border-radius: 100%;
-                position: absolute;
-                left: 8px;
-                top: 49.5%;
-            }
-
-            &:after {
-                background: $our_green;
-                content: "";
-                width: 10px;
-                height: 10px;
-                border-radius: 100%;
-                position: absolute;
-                right: 8px;
-                top: 49.5%;
-            }
 
             &.ps-timeline {
                 margin: 310px 0;
@@ -1130,7 +1087,11 @@ Google map
   background: #fff;
   -webkit-transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
   transition: opacity 0.5s, visibility 0.6s, margin-top 0.5s;
-}
+} 
+.morada {
+	color: inherit;
+  }
+
 #btn-show-content {
   padding: 20px;
   background: #fff;
