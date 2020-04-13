@@ -183,6 +183,7 @@ Navigation
   transition: opacity 0.5s;
 }
 .nav-toggle {
+  color: $gold_letters;
   position: absolute;
   top: 0;
   right: 15px;
@@ -202,7 +203,7 @@ Navigation
   -moz-border-radius: 1px;
   -webkit-border-radius: 1px;
   border-radius: 1px;
-  background: #fff;
+  background: $accent-color;
   cursor: pointer
 }
 .nav-toggle span:before {
