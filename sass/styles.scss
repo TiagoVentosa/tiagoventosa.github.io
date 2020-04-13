@@ -620,7 +620,7 @@ $brand-color:#df8625;
                     height: 10px;
                     border-radius: 100%;
                     position: absolute;
-                    top: 180px !important;
+                    top: 90px !important;
                     left: 36px !important;
                 }
 
@@ -636,7 +636,7 @@ $brand-color:#df8625;
                 }
 
                 &.ps-timeline {
-                    margin: 130px 0 !important;
+                    margin: 40px 0 0 !important;
                     border-left: 2px solid #348e80;
                     padding-left: 0 !important;
                     padding-top: 120px !important;
@@ -760,24 +760,48 @@ $brand-color:#df8625;
                         }
 
                         p {
+							position: relative;
+							top: 110px;
                             text-align: center !important;
                             width: 100% !important;
                             margin: 0 auto !important;
                             margin-top: 0px !important;
+							padding: 0;
+							-moz-transform: translateY(-50%);
+							-ms-transform: translateY(-50%);
+							-o-transform: translateY(-50%);
+							-webkit-transform: translateY(-50%);
+                            transform: translatey(-50%);
                         }
 
                         .ps-top {
                             width: 60% !important;
                             float: right !important;
+							height: inherit;
                             right: 0;
-                            top: -40px;
+							bottom: 0;
+							margin-bottom: initial;
+							margin-top: initial;
+							-moz-transform: translateY(-50%);
+							-ms-transform: translateY(-50%);
+							-o-transform: translateY(-50%);
+							-webkit-transform: translateY(-50%);
+                            transform: translatey(-50%);
                         }
 
                         .ps-bot {
                             width: 60% !important;
                             float: right !important;
+                            height: inherit;
                             right: 0;
-                            top: -40px;
+							bottom: 0;
+							margin-bottom: initial;
+							margin-top: initial;
+							-moz-transform: translateY(-50%);
+							-ms-transform: translateY(-50%);
+							-o-transform: translateY(-50%);
+							-webkit-transform: translateY(-50%);
+                            transform: translatey(-50%);
                         }
                     }
                 }

@@ -116,6 +116,37 @@ $(document).ready(function () {
             }
         });
     });
+	
+	
+	
+    /***************** Timeline Resize vertically ******************/
+	$(function () {
+		var resizeFunc = function () {
+            var windowSize = window.innerWidth;
+			
+            if (windowSize <= 767) {
+				var size = (windowSize - 767 + (220/0.2)) * 0.2;
+                $('.ps-timeline-sec .container ol.ps-timeline li').css({
+					"height": size + "px",
+				});
+				$('.ps-timeline-sec .container ol.ps-timeline li p').css({
+					"top": size/2 + "px",
+				});
+            } else {
+                $('.ps-timeline-sec .container ol.ps-timeline li').css({
+					"height": "",
+				});
+				$('.ps-timeline-sec .container ol.ps-timeline li p').css({
+					"top": "",
+				});
+            }
+        };
+		
+        $(window).resize(resizeFunc);
+		$(window).ready(resizeFunc);
+    });
+	
+	
     /***************** Smooth Scrolling ******************/
 
     $(function () {

@@ -292,7 +292,12 @@
 }
 
 @media screen and (max-width: 480px) {
-    .hero .hero-content {
+    .ps-timeline li p {
+		font-size: 13px;
+		line-height: 18px;
+	}
+	
+	.hero .hero-content {
         padding-top: 110%;
     }
     
@@ -356,6 +361,11 @@
 }
 
 @media screen and (max-width: 320px) {
+	.ps-timeline li p {
+		font-size: 11px;
+		line-height: 18px;
+	}
+	
     .hero .hero-content {
         padding-top: 130%;
     }
