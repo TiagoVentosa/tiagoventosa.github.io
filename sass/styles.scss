@@ -348,7 +348,8 @@ header {
       a {
         color: #FFD700;
 		font-weight: bold;
-
+		padding-right: 25px;
+		
         &:hover {
           color: $accent-color;
         }
@@ -361,7 +362,7 @@ header {
   .member-actions {
     position: absolute;
     right: 0;
-    top: 41px;
+    top: 50px;
     transition: all 300ms ease-in-out;
   }
 }
