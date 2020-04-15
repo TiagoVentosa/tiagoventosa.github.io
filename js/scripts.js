@@ -169,12 +169,12 @@ $(document).ready(function () {
 
 
     /********************** Embed youtube video *********************/
-    $('.player').YTPlayer();
+    //$('.player').YTPlayer();
 
 		
 	$(function(){
-		  $(".player").YTPlayer();
-		});
+	    $(".player").YTPlayer({});
+	});
 	
     /********************** Toggle Map Content **********************/
     $('#btn-show-map').click(function () {
