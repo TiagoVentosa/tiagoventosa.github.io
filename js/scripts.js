@@ -171,7 +171,11 @@ $(document).ready(function () {
     /********************** Embed youtube video *********************/
     $('.player').YTPlayer();
 
-
+		
+	$(function(){
+		  $(".player").YTPlayer();
+		});
+	
     /********************** Toggle Map Content **********************/
     $('#btn-show-map').click(function () {
         $('#map-content').toggleClass('toggle-map-content');
